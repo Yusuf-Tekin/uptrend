@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply cursor-pointer opacity-80 p-2 transition-all rounded-md font-semibold outline-none shadow-sm shadow-gray-300 disabled:opacity-70 disabled:cursor-not-allowed;
+  }
+
+  .btn-sm {
+    @apply px-5 py-2.5;
+  }
+
+  .btn-lg {
+    @apply px-7 py-3.5;
+  }
+
+  .btn-xs {
+    @apply px-3.5 py-2;
+  }
+
+  .btn-ghost {
+    @apply bg-transparent hover:bg-blue-100;
+  }
+
+  .btn-primary {
+    @apply bg-blue-500 hover:bg-blue-600 text-white;
+  }
+
+  .btn-danger {
+    @apply bg-red-400 hover:bg-red-500 text-white;
+  }
+
+  .input {
+    @apply px-3 py-2 rounded-md outline-none border-2 border-gray-100 focus:border-gray-200 transition-all;
+  }
+}
+
+.comfortaa {
+  font-family: "Comfortaa", cursive;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  background-color: #f7f8fb;
+}
+
+* {
+	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

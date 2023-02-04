@@ -1,0 +1,4 @@
+
+
+
+export const Roles = "FRONTEND BACKEND DESIGNER DATABASE CONSULTANT TESTER".split(" ");
